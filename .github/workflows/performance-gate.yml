@@ -73,7 +73,7 @@ jobs:
           node scripts/check-gas-regression.js
       
       - name: Upload profiling report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v7
         with:
           name: gas-profiling-report
           path: reports/gas-profiling.json
